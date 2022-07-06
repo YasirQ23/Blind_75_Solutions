@@ -5,7 +5,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        # count and count 2 are equal to the product going in each direction
+        # count and count 2 are just product sums
         # count is foward fount 2 is backwards
         res = [1] * (len(nums))
         count = 1
